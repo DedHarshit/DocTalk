@@ -1,0 +1,104 @@
+Medicine: Paracetamol
+Use: Pain relief and fever reduction. Commonly used for headaches, toothaches, muscle aches, and mild to moderate pain.
+Dosage: Adults 500mg-1000mg every 4-6 hours. Maximum 4000mg per day. Children dosage varies by weight.
+Side Effects: Nausea, rash, liver damage with overdose.
+Contraindications: Liver disease, heavy alcohol use. Do not exceed recommended dose.
+Drug Class: Analgesic / Antipyretic
+
+Medicine: Ibuprofen
+Use: Anti-inflammatory pain relief. Used for arthritis, menstrual cramps, headaches, toothaches, back pain, and fever.
+Dosage: 200-400mg every 6-8 hours with food. Maximum 1200mg per day for self-medication.
+Side Effects: Stomach irritation, nausea, heartburn, dizziness, increased blood pressure.
+Contraindications: Peptic ulcer, kidney disease, heart failure, pregnancy (third trimester). Avoid with blood thinners.
+Drug Class: NSAID (Non-Steroidal Anti-Inflammatory Drug)
+
+Medicine: Amoxicillin
+Use: Antibiotic used to treat bacterial infections including ear infections, throat infections, urinary tract infections, pneumonia, and skin infections.
+Dosage: 250-500mg three times daily or 500-875mg twice daily depending on severity. Always complete the full course.
+Side Effects: Diarrhea, stomach upset, nausea, skin rash, allergic reactions.
+Contraindications: Penicillin allergy. Use with caution in kidney disease and mononucleosis.
+Drug Class: Penicillin Antibiotic
+
+Medicine: Metformin
+Use: First-line treatment for Type 2 diabetes. Lowers blood sugar levels and improves insulin sensitivity.
+Dosage: Start 500mg once or twice daily with meals. May increase gradually to 2000-2500mg per day in divided doses.
+Side Effects: Nausea, diarrhea, stomach upset, metallic taste. Lactic acidosis is rare but serious.
+Contraindications: Kidney disease, liver disease, excessive alcohol use, heart failure. Hold before contrast procedures.
+Drug Class: Biguanide / Antidiabetic
+
+Medicine: Lisinopril
+Use: ACE inhibitor used for high blood pressure (hypertension), heart failure, and to protect kidneys in diabetic patients.
+Dosage: 5-10mg once daily initially. Maintenance dose 10-40mg per day.
+Side Effects: Dry persistent cough, dizziness, headache, high potassium levels, angioedema.
+Contraindications: History of angioedema, pregnancy, bilateral renal artery stenosis. Avoid with potassium supplements.
+Drug Class: ACE Inhibitor / Antihypertensive
+
+Medicine: Atorvastatin
+Use: Lowers cholesterol and triglycerides. Reduces risk of heart attacks and strokes in high-risk patients.
+Dosage: 10-80mg once daily, usually at bedtime. Dose depends on cholesterol levels and cardiovascular risk.
+Side Effects: Muscle pain or weakness, liver enzyme elevation, headache, digestive issues.
+Contraindications: Active liver disease, pregnancy, breastfeeding. Avoid grapefruit juice.
+Drug Class: Statin / Lipid-Lowering Agent
+
+Medicine: Omeprazole
+Use: Reduces stomach acid. Used for GERD (acid reflux), peptic ulcers, and gastritis.
+Dosage: 20-40mg once daily before meals. Ulcer treatment typically 4-8 weeks. Long-term use for maintenance.
+Side Effects: Headache, diarrhea, nausea, vitamin B12 deficiency with long-term use, increased fracture risk.
+Contraindications: Use with caution with clopidogrel (reduced antiplatelet effect). Avoid long-term use without medical supervision.
+Drug Class: Proton Pump Inhibitor (PPI)
+
+Medicine: Aspirin
+Use: Pain relief, fever reduction, anti-inflammatory. Low-dose used for blood clot prevention in cardiovascular disease.
+Dosage: Pain relief 325-650mg every 4-6 hours. Cardiovascular prevention 75-100mg daily.
+Side Effects: Stomach upset, GI bleeding, ringing in ears (high doses), Reye's syndrome risk in children.
+Contraindications: Children and teenagers with viral illness, bleeding disorders, peptic ulcer. Use caution with blood thinners.
+Drug Class: NSAID / Salicylate / Antiplatelet
+
+Medicine: Cetirizine
+Use: Antihistamine for allergic rhinitis, hay fever, hives, and allergic skin conditions.
+Dosage: 10mg once daily. Can be taken morning or evening. 5mg for elderly or renal impairment.
+Side Effects: Drowsiness, dry mouth, headache, dizziness. Less sedating than older antihistamines.
+Contraindications: Severe kidney disease. Use with caution in elderly (fall risk) and when operating machinery.
+Drug Class: Second-Generation Antihistamine
+
+Medicine: Salbutamol (Albuterol)
+Use: Bronchodilator for asthma and COPD. Relieves acute bronchospasm and exercise-induced asthma.
+Dosage: Inhaler: 1-2 puffs (100-200mcg) every 4-6 hours as needed. Nebulizer: 2.5mg three to four times daily.
+Side Effects: Tremor, palpitations, headache, nervousness, low potassium with high doses.
+Contraindications: Use with caution in heart disease, high blood pressure, hyperthyroidism, and diabetes.
+Drug Class: Beta-2 Agonist Bronchodilator
+
+Medicine: Warfarin
+Use: Anticoagulant (blood thinner) for preventing and treating blood clots. Used in atrial fibrillation and after heart valve surgery.
+Dosage: Highly individualized based on INR monitoring. Usually 2-10mg daily. Regular blood tests required.
+Side Effects: Bleeding (major risk), bruising, skin necrosis (rare).
+Contraindications: Active bleeding, pregnancy, severe liver disease. Many drug and food interactions (especially vitamin K foods).
+Drug Class: Vitamin K Antagonist / Anticoagulant
+
+Medicine: Prednisolone
+Use: Corticosteroid for inflammatory conditions including asthma, allergic reactions, rheumatoid arthritis, and autoimmune diseases.
+Dosage: Varies widely by condition. Typically 5-60mg daily. Taper dose gradually after prolonged use.
+Side Effects: Weight gain, fluid retention, mood changes, increased blood sugar, osteoporosis, immunosuppression with long-term use.
+Contraindications: Active infections (especially fungal), live vaccines. Use with caution in diabetes, osteoporosis, peptic ulcer.
+Drug Class: Corticosteroid / Glucocorticoid
+
+Medicine: Metoprolol
+Use: Beta-blocker for high blood pressure, heart failure, angina, and after heart attacks. Also used for irregular heartbeat.
+Dosage: 25-200mg daily. Immediate release twice daily; extended release once daily.
+Side Effects: Fatigue, dizziness, cold extremities, slow heart rate, depression, sexual dysfunction.
+Contraindications: Severe asthma, second or third degree heart block, cardiogenic shock. Do not stop abruptly.
+Drug Class: Beta-Blocker / Antihypertensive
+
+Medicine: Azithromycin
+Use: Antibiotic for respiratory infections, ear infections, skin infections, and sexually transmitted infections caused by bacteria.
+Dosage: Z-pack: 500mg on day 1, then 250mg days 2-5. Single 1g dose for some STIs.
+Side Effects: Nausea, diarrhea, abdominal pain, heart rhythm changes (QT prolongation).
+Contraindications: Known QT prolongation, liver disease, hypersensitivity to macrolides. Use with caution with other QT-prolonging drugs.
+Drug Class: Macrolide Antibiotic
+
+Medicine: Amlodipine
+Use: Calcium channel blocker for high blood pressure and chest pain (angina). Relaxes blood vessels.
+Dosage: 5-10mg once daily. Start with 5mg; increase if needed after 7-14 days.
+Side Effects: Ankle swelling, flushing, headache, dizziness, palpitations.
+Contraindications: Severe low blood pressure, cardiogenic shock. Use with caution in liver disease.
+Drug Class: Calcium Channel Blocker / Antihypertensive
