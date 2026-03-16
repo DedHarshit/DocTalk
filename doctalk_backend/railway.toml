@@ -1,5 +1,11 @@
 [build]
 builder = "nixpacks"
 
-[deploy]
-startCommand = "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+[phases.setup]
+nixPkgs = ["python311"]
+
+[phases.install]
+cmds = ["pip install -r doctalk_backend/backend/requirements.txt"]
+
+[start]
+cmd = "python -m uvicorn doctalk_backend.backend.main:app --host 0.0.0.0 --port $PORT"
