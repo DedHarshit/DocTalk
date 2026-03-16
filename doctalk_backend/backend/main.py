@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
+import asyncio
 
 from config.settings import get_settings
 from utils.logger import get_logger
@@ -25,21 +26,27 @@ async def lifespan(app: FastAPI):
     logger.info(f"  Collection  : {settings.COLLECTION_NAME}")
     logger.info(f"  Frontend URL: {settings.FRONTEND_URL}")
 
-    # 2. Check / run ingestion
     logger.info("Checking ChromaDB collection …")
-    try:
-        result = ingest(force=False)
-        if result["status"] == "skipped":
-            logger.info(
-                f"  Collection already populated ({result['chunks']} chunks). Skipping ingestion."
-            )
-        else:
-            logger.info(
-                f"  Ingestion complete — {result['chunks']} chunks loaded into '{result['collection']}'."
-            )
-    except Exception as exc:
-        logger.error(f"  Ingestion failed: {exc}")
-        logger.warning("  Server will start but RAG queries may not work correctly.")
+
+    async def run_ingestion():
+        try:
+            result = ingest(force=False)
+
+            if result["status"] == "skipped":
+                logger.info(
+                    f"Collection already populated ({result['chunks']} chunks). Skipping ingestion."
+                )
+            else:
+                logger.info(
+                    f"Ingestion complete — {result['chunks']} chunks loaded into '{result['collection']}'."
+                )
+
+        except Exception as exc:
+            logger.error(f"Ingestion failed: {exc}")
+            logger.warning("RAG queries may not work correctly.")
+
+    # Run ingestion in background so API starts immediately
+    asyncio.create_task(run_ingestion())
 
     logger.info("System ready ✓")
     logger.info("=" * 60)
@@ -114,5 +121,4 @@ app = create_app()
 
 if __name__ == "__main__":
     import uvicorn
-
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
