@@ -1,10 +1,10 @@
 [phases.setup]
-nixPkgs = ["python311", "stdenv.cc.cc.lib"]
-aptPkgs = ["python3-pip", "python3-venv"]
+aptPkgs = ["python3.11", "python3.11-venv", "python3-pip", "libstdc++6", "build-essential"]
 
 [phases.install]
 cmds = [
-  "python3 -m venv /opt/venv",
+  "python3.11 -m venv /opt/venv",
+  "/opt/venv/bin/pip install --upgrade pip",
   "/opt/venv/bin/pip install -r backend/requirements.txt"
 ]
 
